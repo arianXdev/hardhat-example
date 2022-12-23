@@ -9,7 +9,7 @@ contract MyContract {
         value = "Hello, World!";
     }
 
-    function setValue(string memory _value) private {
+    function setValue(string memory _value) public {
         value = _value;
     }
 
